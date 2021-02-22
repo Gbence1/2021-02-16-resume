@@ -1,6 +1,12 @@
+    @font-face{
+        font-family: Handwriting;
+        src: url(../src/font/handwriting-draft_free-version.ttf);
+    }
+
 body{
     background-color: #2A2A2E;
-    color: #76ffa4;
+    color: #413e3e;
+    font-family: Handwriting
 }
 
 .top-header{
@@ -8,9 +14,9 @@ body{
     height: 100px;
     margin: 0;
     justify-content: space-between;
-    background-color: #212aaa;
+    background-color: #328a41;
     position: absolute;
-    left: 500px;
+    left: 600px;
     right: 25px;
     top: 25px;
     border-radius: 100px;
@@ -32,20 +38,74 @@ body{
 .bio{
     display: flex;
     justify-content: center;
-    background-color: red;
-    width: 500px;
-    height: 800px;
+    background-color: #328a41;
+    width: 600px;
+    height: 1200px;
     position: absolute;
     top: 25px;
     left: 25px;
-    border-radius: 250px 250px 250px 250px;
+    border-radius: 300px 300px 300px 300px;
 }
 
 .pfp{
-    width: 400px;
-    margin-top: 10px;
+    width: 300px;
+    margin-top: 0px;
+    border: 2px solid #ffffff;
+    border-radius: 152px;
+    position: absolute;
+    left: 150px;
+    top: 60px;
 }
 
 .list{
     list-style-type: none;
+    padding: 0;
+    margin: 375px 0 0 0;
+}
+
+.first-name{
+    font-size: 110px;
+    margin: -60px 0px -40px 0px;
+}
+
+.last-name{
+    font-size: 50px;
+    text-align: end;
+    padding-right: 0px;
+    margin: -45px 0px -40px -40px;
+}
+
+.birthdate{
+    position: absolute;
+    left: 150px;
+}
+
+.email{
+    position: absolute;
+    top: 500px;
+    display: flex;
+}
+
+.github{
+    position: absolute;
+    top: 550px;
+    display: flex;
+}
+
+.bio-list-margin{
+    margin: 0px 10px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #163D1C;
+}
+
+a:hover{
+    color: #b6dfbe;
+}
+
+a:active{
+    color: #00FF00;
+    text-decoration: none;
 }
